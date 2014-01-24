@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/e610/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/e610/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/lge/e610/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/lge/e610/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/lge/e610/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/lge/e610/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
@@ -73,6 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
     vendor/lge/e610/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/lge/e610/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
+    vendor/lge/e610/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
     vendor/lge/e610/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/lge/e610/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/lge/e610/proprietary/lib/liblgsecclk.so:system/lib/liblgsecclk.so \
@@ -83,7 +83,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/lge/e610/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/lge/e610/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/lge/e610/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+    vendor/lge/e610/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/lge/e610/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/lge/e610/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/lge/e610/proprietary/lib/libril.so:system/lib/libril.so \
